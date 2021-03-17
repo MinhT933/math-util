@@ -12,7 +12,20 @@
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/MinhT/OneDrive/Documents/NetBeansProjects/Assisgment/src/java/MinhT/dao/PhoneDao.java</file>
+            <file>file:/C:/Users/MinhT/OneDrive/Documents/NetBeansProjects/Assisgment/src/java/MinhT/dao/UserDAO.java</file>
+            <file>file:/C:/Users/MinhT/OneDrive/Documents/NetBeansProjects/Assisgment/src/java/MinhT/controll/Categorycontroller.java</file>
+            <file>file:/C:/Users/MinhT/OneDrive/Documents/NetBeansProjects/Assisgment/web/META-INF/context.xml</file>
+            <file>file:/C:/Users/MinhT/OneDrive/Documents/NetBeansProjects/Assisgment/src/java/MinhT/controll/AddProductController.java</file>
             <file>file:/C:/Users/MinhT/OneDrive/Documents/NetBeansProjects/Assisgment/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/MinhT/OneDrive/Documents/NetBeansProjects/Assisgment/src/java/MinhT/controll/RemoveCartController.java</file>
+            <file>file:/C:/Users/MinhT/OneDrive/Documents/NetBeansProjects/Assisgment/src/java/MinhT/dao/log4j.properties</file>
+            <file>file:/C:/Users/MinhT/OneDrive/Documents/NetBeansProjects/Assisgment/web/login.jsp</file>
+            <file>file:/C:/Users/MinhT/OneDrive/Documents/NetBeansProjects/Assisgment/src/java/MinhT/controll/DeletePhoneController.java</file>
+            <file>file:/C:/Users/MinhT/OneDrive/Documents/NetBeansProjects/Assisgment/web/manergerProduct.jsp</file>
+            <file>file:/C:/Users/MinhT/OneDrive/Documents/NetBeansProjects/Assisgment/src/java/MinhT/controll/AddToCart.java</file>
+            <file>file:/C:/Users/MinhT/OneDrive/Documents/NetBeansProjects/Assisgment/src/java/MinhT/controll/MainController.java</file>
+            <file>file:/C:/Users/MinhT/OneDrive/Documents/NetBeansProjects/Assisgment/src/java/MinhT/controll/CongtoCartController.java</file>
         </group>
     </open-files>
 </project-private>

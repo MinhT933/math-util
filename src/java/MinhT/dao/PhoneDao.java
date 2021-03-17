@@ -52,7 +52,7 @@ public class PhoneDao {
                         rs.getInt(5),
                         rs.getString(6)));
                 BasicConfigurator.configure();
-                logger.debug("sai rồi");
+                logger.debug(rs);
             }
         } catch (Exception e) {
            Logger.getLogger(PhoneDao.class).error(e.getMessage());

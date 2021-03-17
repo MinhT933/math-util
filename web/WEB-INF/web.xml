@@ -76,6 +76,10 @@
         <servlet-name>EditController</servlet-name>
         <servlet-class>MinhT.controll.EditController</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>LoginGoogleController</servlet-name>
+        <servlet-class>MinhT.controll.LoginGoogleController</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>homecontroll</servlet-name>
         <url-pattern>/homecontroll</url-pattern>
@@ -159,6 +163,10 @@
     <servlet-mapping>
         <servlet-name>EditController</servlet-name>
         <url-pattern>/EditController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginGoogleController</servlet-name>
+        <url-pattern>/login-google</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>30</session-timeout>

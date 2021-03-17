@@ -36,7 +36,7 @@ public class CongtoCartController extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
        String id = request.getParameter("id");
-        System.out.println("hihi"+id);
+     
        
         PhoneDao dao = new PhoneDao();
       
@@ -47,17 +47,17 @@ public class CongtoCartController extends HttpServlet {
         HttpSession session = request.getSession();
         CartDTO cart = (CartDTO) session.getAttribute("cart");
       
-        System.out.println("id"+id);
+       
         if (cart == null) {
             cart = new CartDTO();
         }
         cart.addItemCart(product.getId());
         session.setAttribute("cart", cart);
         session.setAttribute("listProductInCart", cart.getList());
-        // lấy danh sách shoes
+       
         session.setAttribute("listproduct", listProduct);
 
-//        System.out.println(cart.getList());
+
         String url = "cart.jsp";
         response.sendRedirect(url);
     }

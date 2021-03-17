@@ -20,7 +20,9 @@
             <form class="form-signin" action="MainController?btnAction=login" method="post">
                 <h1 class="h3 mb-3 font-weight-normal" style="text-align: center"> Sign in</h1>
                 <div class="social-login">
-                    <button class="btn google-btn social-btn" type="button"><span><i class="fab fa-google-plus-g"></i> Sign in with Google+</span> </button>
+                    <button class="btn google-btn social-btn" type="button"><span><i class="fab fa-google-plus-g"></i> 
+                            <a href="https://accounts.google.com/o/oauth2/auth?scope=email&redirect_uri=http://localhost:8080/Assisgment/login-google&response_type=code
+                               &client_id=356916976091-0f01l6butjanhe0am2ctlumb2nqo2oj3.apps.googleusercontent.com&approval_prompt=force"></a></span> </button>
                 </div>
                 <p class="text-danger">${mess}</p>
 
