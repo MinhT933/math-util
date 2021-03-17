@@ -5,6 +5,7 @@
  */
 package MinhT.dao;
 
+import MinhT.controll.AddToCart;
 import MinhT.dto.Categories;
 import MinhT.dto.Phone;
 
@@ -54,7 +55,7 @@ public class PhoneDao {
                 logger.debug("sai rồi");
             }
         } catch (Exception e) {
-           
+           Logger.getLogger(PhoneDao.class).error(e.getMessage());
         }
         return ListPhone;
     }

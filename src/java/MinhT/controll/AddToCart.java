@@ -17,6 +17,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import org.apache.log4j.Logger;
 
 /**
  *
@@ -53,6 +54,7 @@ public class AddToCart extends HttpServlet {
         if (cart == null) {
             cart = new CartDTO();
         }
+        
         cart.addItemCart(product.getId());
         session.setAttribute("cart", cart);
         session.setAttribute("listProductInCart", cart.getList());
