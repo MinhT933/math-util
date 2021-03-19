@@ -7,6 +7,7 @@ repository. thí repo offers various math methods used as a help q4
 for your project 
 
 
+<<<<<<< HEAD
 
 ### You will find this repo the following stuff:
 * .gitignore file itself to demonstrace how to ask the Git tool to upLoad a file or not 
@@ -17,3 +18,4 @@ for your project
 [My facebook](https://www.facebook.com/profile.php?id=100009257124188)
 [My email](phammanhtoanhht933@gmail.com)
 © 2021 MinhT
+
