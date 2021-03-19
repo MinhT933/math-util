@@ -8,3 +8,4 @@ for your project
 
 
 ### this......
+* .gitignore file itself 
