@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.cnd;
+package com.fu.MinhT.main;
 
 /**
  *
  * @author asus
  */
-public class MathUtility {
+public class Main {
     // class nay chua cac ham toan hoc fake laij class chuan JDK
     // java.util.Math ben trong chuaws cac ham toan hoc sqrt() abs() sin().
    //cai gi maf dung chung cho moi noi, thi ta se dat la static

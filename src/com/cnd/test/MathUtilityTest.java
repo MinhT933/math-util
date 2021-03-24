@@ -5,10 +5,10 @@
  */
 package com.cnd.test;
 
-import com.cnd.MathUtility;
+import com.fu.MinhT.main.Main;
 import java.sql.SQLException;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 /**
  *
@@ -25,7 +25,7 @@ public class MathUtilityTest {
        
         int n = 5; // tui mún tính 5!
          long expected = 120; // tui hi vọng trả về 120
-         long actual = MathUtility.getFactorial(n);
+         long actual = Main.getFactorial(n);
          assertEquals(expected, actual);
          // nếu khớp thì xanh sai lệnh thì đỏ
          
@@ -37,12 +37,12 @@ public class MathUtilityTest {
          
          
          
-        assertEquals(720, MathUtility.getFactorial(6));
-        assertEquals(24, MathUtility.getFactorial(4));
-        assertEquals(6, MathUtility.getFactorial(3));  
-        assertEquals(2, MathUtility.getFactorial(2));
-        assertEquals(1, MathUtility.getFactorial(1));
-        assertEquals(1, MathUtility.getFactorial(0));
+        assertEquals(720, Main.getFactorial(6));
+        assertEquals(24, Main.getFactorial(4));
+        assertEquals(6, Main.getFactorial(3));  
+        assertEquals(2, Main.getFactorial(2));
+        assertEquals(1, Main.getFactorial(1));
+        assertEquals(1, Main.getFactorial(0));
              
          
         
@@ -65,8 +65,8 @@ public class MathUtilityTest {
     //                                                  mặc dù ko sai
     @Test(expected = IllegalArgumentException.class) 
     public void getFactorialGivenWrongArgumentThrowsException(){
-       MathUtility.getFactorial(6);
-       MathUtility.getFactorial(-6);
+       Main.getFactorial(6);
+       Main.getFactorial(-6);
        
     }// cá luôn 2 tk này ném ra ngoại lệ IllegalArgumentException
 }

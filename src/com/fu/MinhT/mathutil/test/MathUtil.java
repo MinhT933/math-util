@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package math.util;
+package com.fu.MinhT.mathutil.test;
 
-import com.cnd.MathUtility;
+import com.fu.MinhT.main.Main;
 
 /**
  *
@@ -20,7 +20,7 @@ public class MathUtil {
         // tui mún test xem 5! có bằng 120 ko
         long expected = 120; // tui hi vọng 120 là giá trị trả về
         int n = 5;     // nếu tui tính 5!
-        long actual = MathUtility.getFactorial(n);
+        long actual = Main.getFactorial(n);
                                                //actual: cái value hàm thực sự trả về
         // ta đi so sánh = mắt để luận xem hàm ta viết chạy đúng hay ko
         System.out.println("5!: Expected: " + expected + "; Actual:" + actual);
@@ -31,7 +31,7 @@ public class MathUtil {
         
         n = 0;    // tui mun tinh 0!
         expected = 1;   // hy vọng nhận về 1
-        actual = MathUtility.getFactorial(n); // còn thực tế là 
+        actual = Main.getFactorial(n); // còn thực tế là 
         //dùng mắt kết luận again
         System.out.println("0!: Expected: " + expected + "; Actual:" + actual);
         
@@ -74,8 +74,8 @@ public class MathUtil {
 
 // MÚN LÀM DC ĐIỀU NÀY, TA CẦN THÊM THU VIỆN PHỤ TRỌ ĐỂ TUNG RA MÀU
 // THU VIỆN NÀY ĐỀU CÓ TƯƠNG ỨNG Ở CÁC NGÔN NGỮ LẬP TRÌNH
-//JAVA: JUnit, testNG..
-//C# :JUnit, xUnit, MSTest
-//PHP: PHPUnit
+// JAVA: JUnit, testNG..
+// C# :JUnit, xUnit, MSTest
+// PHP: PHPUnit
 //....
 
