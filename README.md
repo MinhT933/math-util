@@ -9,10 +9,10 @@
 * (TBA...)
 
 ### Connect me via
-[My Facebook](https://www.facebook.com/lang.nhin.92123)  
-[My email](mailto: huynhngoclinh100@gmail.com)
+[My Facebook](https://www.facebook.com/profile.php?id=100009257124188)  
+[My email](mailto: phammanhtoanhht933)
 
-© 2021 lang.nhin
+© 2021 MinhT
 
 
 
