@@ -23,7 +23,25 @@ public class Main {
     //giai thua tang rat nhanh, 20! vua khop kieu long 
     //21! tràn long, bi sai nếu ráng lưu biến long 
     //long: 10^18 18 con số 0
-    public static long getFactorial(int n){
+//    public static long getFactorial(int n){
+//        if(n<0 || n>20)
+//            throw new IllegalArgumentException("Invalid argument. N must be between 0..20");
+//        
+//        //CPU chạy đến đây, sure n tu 0..20
+//        if(n==0 || n==1)
+//            return 1;
+//        
+//        //CPU chạy đến đây sure n=2..20
+//        long result = 0; // cố tình để 0 
+//        for (int i = 2; i <= n; i++) 
+//            result *= i;
+//        
+//        return result;        
+//    }
+    
+    
+    
+      public static long getFactorial(int n){
         if(n<0 || n>20)
             throw new IllegalArgumentException("Invalid argument. N must be between 0..20");
         
@@ -32,11 +50,7 @@ public class Main {
             return 1;
         
         //CPU chạy đến đây sure n=2..20
-        long result = 0; // cố tình để 0 
-        for (int i = 2; i <= n; i++) 
-            result *= i;
-        
-        return result;        
+        return n*getFactorial(n-1);
+        //n!=n*(n-1)
     }
-    
 }
